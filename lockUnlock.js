@@ -53,11 +53,7 @@ function submit(){
     if(pwd.value==password){
         alert("Redirecting to Welcome page");
         window.location="welcome.html"
-        // document.getElementsByClassName("header")[0].style.display="block";
-        // document.getElementsByClassName("alert")[0].style.display="none";
-        // document.getElementsByClassName("goback")[0].style.display="none";
-        // document.getElementsByClassName("changepwd")[0].style.display="block";
-        
+      
     }
     else{
         count--;
